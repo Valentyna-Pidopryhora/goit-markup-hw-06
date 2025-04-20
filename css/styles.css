@@ -110,7 +110,7 @@ img {
   color: #4d5ae5;
   padding-top: 16px;
   padding-bottom: 16px;
-  margin-right: 76px;
+  margin-right: 149px;
 }
 
 .header-logo span {
@@ -221,9 +221,6 @@ img {
   padding: 0;
 }
 
-.mob-menu-list {
-  margin-bottom: 24px;
-}
 .mob-menu-item:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -239,10 +236,9 @@ img {
 }
 .mob-address {
   font-style: normal;
+  margin-bottom: 48px;
 }
-.mob-address-list {
-  margin-bottom: 40px;
-}
+
 .mob-address-item:not(:last-child) {
   margin-bottom: 24px;
 }
@@ -368,6 +364,7 @@ img {
 .team-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 72px;
 }
 
@@ -904,7 +901,7 @@ img {
   }
 
   .features-item {
-    flex-basis: calc((100% - 48px) / 2);
+    flex-basis: calc((100% - 24px) / 2);
   }
 
   .features-subtitle {
